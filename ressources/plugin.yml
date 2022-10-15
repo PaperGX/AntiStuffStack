@@ -1,0 +1,8 @@
+name: AntiStuffStack
+author: PaperGX
+version: 1.0
+main: fr.papergx.antistuffstack.Main
+commands:
+  stuff:
+    permission: op
+    description: Permet de se give stuff stack

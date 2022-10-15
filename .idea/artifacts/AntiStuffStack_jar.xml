@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="AntiStuffStack:jar">
+    <output-path>$PROJECT_DIR$/../../../Serveur Test/1.8.8/plugins</output-path>
+    <root id="archive" name="AntiStuffStack.jar">
+      <element id="module-output" name="AntiStuffStack" />
+    </root>
+  </artifact>
+</component>
