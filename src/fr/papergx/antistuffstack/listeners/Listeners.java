@@ -57,6 +57,7 @@ public class Listeners implements Listener {
     public void playerInteractEvent(PlayerInteractEvent event){
         Player player = event.getPlayer();
         PlayerInventory inv = player.getInventory();
+        if(event.getItem() == null) {return;}
         if(event.getAction().equals(Action.RIGHT_CLICK_BLOCK) || event.getAction().equals(Action.RIGHT_CLICK_AIR)) {
             if(materialList.contains(event.getItem().getType())) {
                 switch (event.getItem().getType()) {
